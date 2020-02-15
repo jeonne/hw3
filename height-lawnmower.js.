@@ -1,10 +1,10 @@
 function setup() {
-  createCanvas(400, 200);
+  createCanvas(600, 600);
   colorMode(HSB);
 }
 
 var x = 0;
-var h = 15;
+var h = 30;
 
 function draw() {
   stroke(random(60, 70), 100, 90);
@@ -21,7 +21,7 @@ function draw() {
   if (random(1000) > 999) {
     fill(255);
     rect(0, 0, width, height-15);
-    h = 15;
+    h = 30;
   }
 
   fill(40, 100, 60);
